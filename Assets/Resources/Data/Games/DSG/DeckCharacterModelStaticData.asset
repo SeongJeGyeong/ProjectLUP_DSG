@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5040bcec03b29bd42a81303d6c0fadfc, type: 3}
+  m_Name: DeckCharacterModelStaticData
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  associatedWorksheet: CharacterModel
+  START_ROW: 1
+  DataList:
+  - ModelId: 1
+    ModelName: Female_Magic
+    ModelPath: Models/Characters/_prefabs/DSG/Female_Magic
+  - ModelId: 2
+    ModelName: Female_OneHanded
+    ModelPath: Models/Characters/_prefabs/DSG/Female_OneHanded
+  - ModelId: 3
+    ModelName: Female_TwoHanded
+    ModelPath: Models/Characters/_prefabs/DSG/Female_TwoHanded
+  - ModelId: 4
+    ModelName: Male_Rifle
+    ModelPath: Models/Characters/_prefabs/DSG/Male_Rifle
+  - ModelId: 5
+    ModelName: Male_Throw
+    ModelPath: Models/Characters/_prefabs/DSG/Male_Throw
+  - ModelId: 6
+    ModelName: Male_OneHanded
+    ModelPath: Models/Characters/_prefabs/DSG/Male_OneHanded
+  - ModelId: 7
+    ModelName: Butcher
+    ModelPath: Models/Characters/_prefabs/DSG/Butcher
+  - ModelId: 8
+    ModelName: DarkKnight_OneHanded
+    ModelPath: Models/Characters/_prefabs/DSG/DarkKnight_OneHanded
+  - ModelId: 9
+    ModelName: DarkKnight_TwoHanded
+    ModelPath: Models/Characters/_prefabs/DSG/DarkKnight_TwoHanded
+  - ModelId: 10
+    ModelName: WereWolf_Throw
+    ModelPath: Models/Characters/_prefabs/DSG/WereWolf_Throw
+  - ModelId: 11
+    ModelName: WereWolf_OneHanded
+    ModelPath: Models/Characters/_prefabs/DSG/WereWolf_OneHanded

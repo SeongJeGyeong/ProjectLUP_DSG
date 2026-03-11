@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd2af5d2666abe4f9fa7dc770c65d15, type: 3}
+  m_Name: DeckCharacterStaticData
+  m_EditorClassIdentifier: 
+  sourceType: 0
+  associatedWorksheet: Character
+  START_ROW: 1
+  DataList:
+  - CharacterId: 1
+    CharacterName: Magician
+    AttributeType: 1
+    RangeType: 1
+  - CharacterId: 2
+    CharacterName: Vagabond
+    AttributeType: 2
+    RangeType: 2
+  - CharacterId: 3
+    CharacterName: Mercenary
+    AttributeType: 3
+    RangeType: 1
+  - CharacterId: 4
+    CharacterName: Gunner
+    AttributeType: 1
+    RangeType: 2
+  - CharacterId: 5
+    CharacterName: Resistance
+    AttributeType: 2
+    RangeType: 1
+  - CharacterId: 6
+    CharacterName: Brutal
+    AttributeType: 3
+    RangeType: 2
+  - CharacterId: 7
+    CharacterName: Magician2
+    AttributeType: 1
+    RangeType: 1
+  - CharacterId: 8
+    CharacterName: Magician3
+    AttributeType: 2
+    RangeType: 2
+  - CharacterId: 9
+    CharacterName: Vagabond2
+    AttributeType: 3
+    RangeType: 1
+  - CharacterId: 10
+    CharacterName: Mercenary2
+    AttributeType: 1
+    RangeType: 2
+  - CharacterId: 11
+    CharacterName: Butcher
+    AttributeType: 1
+    RangeType: 1
+  - CharacterId: 12
+    CharacterName: DarkKnight1
+    AttributeType: 2
+    RangeType: 1
+  - CharacterId: 13
+    CharacterName: DarkKnight2
+    AttributeType: 2
+    RangeType: 1
+  - CharacterId: 14
+    CharacterName: WereWolfH
+    AttributeType: 3
+    RangeType: 1
+  - CharacterId: 15
+    CharacterName: WereWolfL
+    AttributeType: 3
+    RangeType: 2
