@@ -1,22 +1,7 @@
-# \# projectlup-v1
+# 소개
+Unity6를 기반으로 하나의 프로젝트 내에 각 팀 별로 미니 게임을 제작한 프로젝트입니다.
+해당 프로젝트 내에서 턴제 RPG 게임인 DSG의 개발을 담당했습니다.
 
-# 
-
-# 
-
-# unity6 (6000.0.62f1)
-
-# 
-
-# https://docs.unity3d.com/6000.0/Documentation/Manual/SmartMerge.html
-
-
-
-캐릭터 특성
-
-CH_F001 : 마법
-CH_F002 : 한손검
-CH_F003 :  양손검
-CH_M001 : 총 (권총, 샷건 등)
-CH_M002 : 투척
-CH_M003 : 도끼
++ 개발 환경 : Unity 6000.0.62f1, Git(Fork)
++ 플랫폼 : PC
++ 개발 인원 : 3명
