@@ -23,3 +23,18 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/4b981edb97d17278f42733d4b32
 https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/4b981edb97d17278f42733d4b32e548d285dc5e8/Assets/2_Scripts/Games/DSG/1_UI/DeckEditUI/CharacterFilterPanel.cs#L1-L95
   
 </details>
+
+## 2. 캐릭터 UI
+<details>
+<summary><b>보기</b></summary>
+</details>
+
+## 3. 셰이더
+<details>
+<summary><b>보기</b></summary>
+</details>
+
+## 4. DoTween
+<details>
+<summary><b>보기</b></summary>
+</details>
