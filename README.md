@@ -39,7 +39,8 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/809d354361254fc854b9db535ad
 </details>  
 <details>
 <summary><b>오브젝트 풀</b></summary>
-
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/0_System/CharacterFactory.cs#L1-L101
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/0_System/CharacterUIPool.cs#L1-L87
 </details>
 </details>
 
@@ -47,8 +48,12 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/809d354361254fc854b9db535ad
 <details>
 <summary><b>보기</b></summary>
 <details>
-<summary><b>CharacterBattleUI</b></summary>
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cbc955c57c79c81/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L1-L204
+<summary><b>CharacterInfoUI</b></summary>
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/CharacterInfoUI.cs#L1-L33
+</details>
+<details>
+<summary><b>CharacterHeadupUI</b></summary>
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/CharacterHeadupUI.cs#L1-L125
 </details>
 </details>
 
@@ -57,8 +62,8 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cb
 <summary><b>보기</b></summary>
 <details>
 <summary><b>스킬 게이지 최대치일 경우 셰이더 적용</b></summary>
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cbc955c57c79c81/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L59-L86
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cbc955c57c79c81/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L108-L116
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L55-L82
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L105-L111
 </details>
 <details>
 <summary><b>Dither 셰이더를 통한 캐릭터 반투명 처리</b></summary>
