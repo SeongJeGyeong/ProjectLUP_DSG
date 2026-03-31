@@ -58,6 +58,8 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b4997
 </details>
 
 ## 3. 셰이더
+![Image](https://github.com/user-attachments/assets/e6382a00-c08c-49a4-8bbb-cc231963842f)
+![Image](https://github.com/user-attachments/assets/97b7ca3a-a575-467d-9dee-262a4d9b8d9b)
 <details>
 <summary><b>보기</b></summary>
 <details>
@@ -72,6 +74,8 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cb
 </details>
 
 ## 4. DoTween을 활용한 카메라 연출
+![Image](https://github.com/user-attachments/assets/24e25791-c9cb-4287-a14c-94372415e005)
+![Image](https://github.com/user-attachments/assets/02ba3d61-cff8-48dd-bc2d-7564d6be7f9e)
 <details>
 <summary><b>보기</b></summary>
 https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cbc955c57c79c81/Assets/2_Scripts/Games/DSG/0_System/BattleCameraDirector.cs#L1-L90
