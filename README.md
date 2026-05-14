@@ -17,7 +17,7 @@ Unity6를 기반으로 하나의 프로젝트 내에 각 팀 별로 미니 게�
 <img width="2142" height="881" alt="Image" src="https://github.com/user-attachments/assets/e05bd257-155c-4c4f-a8f9-7bc1aa81890f" />
 <details>
 <summary><b>DeckStrategyStage(Model)</b></summary>
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/809d354361254fc854b9db535ad64d49ff23e8b8/Assets/2_Scripts/-Stage/DSG/DeckStrategyStage.cs#L1-L294
+https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/d839f1659891c640154dedefd6a4c54932eb250f/Assets/2_Scripts/-Stage/DSG/DeckStrategyStage.cs#L1-L303
 </details>
 <details>
 <summary><b>FormationPresenter(Presenter)</b></summary>
@@ -67,13 +67,13 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b4997
 <img width="1841" height="512" alt="Image" src="https://github.com/user-attachments/assets/329e12d7-e8e5-4e15-8400-598ec3b11f3e" />
 <details>
 <summary><b>스킬 게이지 최대치일 경우 셰이더 적용</b></summary>
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L55-L82
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L105-L111
+  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L55-L82
+  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L105-L111
 </details>
 <img width="1534" height="879" alt="Image" src="https://github.com/user-attachments/assets/94b2080c-fa74-49ac-b33d-66eca7e7db62" />
 <details>
 <summary><b>Dither 셰이더를 통한 캐릭터 반투명 처리</b></summary>
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cbc955c57c79c81/Assets/2_Scripts/Games/DSG/2_Character/Components/ObjectFader.cs#L1-L51
+  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/d839f1659891c640154dedefd6a4c54932eb250f/Assets/2_Scripts/Games/DSG/2_Character/Components/ObjectFader.cs#L1-L85
 </details>
 </details>
 
@@ -82,5 +82,5 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cb
 ![Image](https://github.com/user-attachments/assets/02ba3d61-cff8-48dd-bc2d-7564d6be7f9e)
 <details>
 <summary><b>보기</b></summary>
-https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/0bb4cfc33afb87c7eca8f1cc7cbc955c57c79c81/Assets/2_Scripts/Games/DSG/0_System/BattleCameraDirector.cs#L1-L90
+  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/d839f1659891c640154dedefd6a4c54932eb250f/Assets/2_Scripts/Games/DSG/0_System/BattleCameraDirector.cs#L1-L119
 </details>
