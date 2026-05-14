@@ -7,6 +7,8 @@ namespace LUP.DSG
     public class BattleCameraDirector : MonoBehaviour
     {
         private Vector3 originPosition;
+        private Quaternion originRotation;
+        private Tween activeCameraTween;
 
         [SerializeField]
         private Vector3 friendlyIntroCamPosition;
@@ -23,6 +25,19 @@ namespace LUP.DSG
         private void Awake()
         {
             originPosition = transform.position;
+            originRotation = transform.rotation;
+        }
+
+        private void OnDestroy()
+        {
+            KillTween();
+        }
+
+        private void KillTween()
+        {
+            if (activeCameraTween != null && activeCameraTween.IsActive())
+                activeCameraTween.Kill();
+            activeCameraTween = null;
         }
 
         public IEnumerator Shake(float duration, float magnitude)
@@ -46,6 +61,8 @@ namespace LUP.DSG
 
         public Tween PlayBattleIntroSequence()
         {
+            KillTween();
+
             Vector3 originPos = transform.position;
             Quaternion originRot = transform.rotation;
 
@@ -61,21 +78,32 @@ namespace LUP.DSG
             seq.Append(transform.DOMove(originPos, 1f));
             seq.Join(transform.DORotateQuaternion(originRot, 1f));
 
+            activeCameraTween = seq;
             return seq;
         }
 
         public void FocusOnTarget(Vector3 targetPosition)
         {
-            transform.DOMoveX(targetPosition.x, 0.5f);
+            KillTween();
+            activeCameraTween = transform.DOMoveX(targetPosition.x, 0.5f);
         }
 
         public void BackToOriginPos(float delay = 0f)
         {
-            transform.DOMoveX(originPosition.x, 0.5f).SetDelay(delay);
+            KillTween();
+
+            Sequence seq = DOTween.Sequence();
+            if (delay > 0f) seq.AppendInterval(delay);
+            seq.Append(transform.DOMove(originPosition, 0.5f));
+            seq.Join(transform.DORotateQuaternion(originRotation, 0.5f));   // ¡ç Ãß°¡
+
+            activeCameraTween = seq;
         }
 
         public Tween FocusOnSkillCaster(Transform targetTransform, Transform cameraOriginPos)
         {
+            KillTween();
+
             Sequence seq = DOTween.Sequence();
             seq.Append(transform.DOMove(targetTransform.position, 1f));
             seq.Join(transform.DORotateQuaternion(targetTransform.rotation, 1f));
@@ -84,6 +112,7 @@ namespace LUP.DSG
             seq.Append(transform.DOMove(cameraOriginPos.position, 1f));
             seq.Join(transform.DORotateQuaternion(cameraOriginPos.rotation, 1f));
 
+            activeCameraTween = seq;
             return seq;
         }
     }
