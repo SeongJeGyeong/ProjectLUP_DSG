@@ -67,8 +67,8 @@ https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b4997
 <img width="1841" height="512" alt="Image" src="https://github.com/user-attachments/assets/329e12d7-e8e5-4e15-8400-598ec3b11f3e" />
 <details>
 <summary><b>스킬 게이지 최대치일 경우 셰이더 적용</b></summary>
-  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L55-L82
-  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/74209889a947a1fa7d1048b49975bff1f6effe10/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L105-L111
+  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/f92c58efb8fee33b8cd0c4b1a97a1a156ddf6e07/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L61-L89
+  https://github.com/SeongJeGyeong/ProjectLUP_DSG/blob/f92c58efb8fee33b8cd0c4b1a97a1a156ddf6e07/Assets/2_Scripts/Games/DSG/1_UI/BattleUI/CharacterBattleUI.cs#L112-L117
 </details>
 <img width="1534" height="879" alt="Image" src="https://github.com/user-attachments/assets/94b2080c-fa74-49ac-b33d-66eca7e7db62" />
 <details>
